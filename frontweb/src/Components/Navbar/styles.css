@@ -1,0 +1,120 @@
+.main-nav {
+    padding-left: 40px;
+    min-height: 30px;
+    /* box-shadow: 2px 2px 2px 1px rgba(19, 19, 19, 0.075); */
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border: 1px solid #ccc;
+    background-color: #f7f7fa;
+    
+  }
+  .nav-logo-text h4 {
+    margin-bottom: 0;
+    font-size: 18px;
+  }
+  
+  .nav-logo-text,
+  .nav-logo-text:hover {
+    color: rgb(11, 11, 11);
+    text-decoration: none;
+  }
+  
+  .main-menu {
+    /* display-flex - usado para definir que o elemento ira utilizar o flexbox*/
+    display: flex;
+    font-size: 14px;
+    width: 250px;
+    justify-content: space-around;
+  }
+  
+  .main-menu a {
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+  }
+  
+  .main-menu a:hover {
+    color: rgb(178, 3, 3);
+  }
+  
+  .main-menu a.active {
+    color: rgb(189, 2, 2);
+    font-weight: 700;
+  }
+  
+  .container-logo {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+  }
+  
+  .container-logo img {
+    width: 50px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .container-logo {
+    color: rgb(142, 151, 151);
+  }
+  
+  .auth-logon-email {
+    font-size: 14px;
+    margin-right: 15px;
+    color: rgba(68, 68, 68, 0.897);
+    font-weight: 600;
+  }
+  
+  .menu-perfil img {
+    width: 35px;
+    height: 35px;
+    margin-right: 15px;
+  }
+  
+  #logout-img {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+  }
+  
+  #logout-img:hover {
+    scale: 1.2;
+    transition: 0.5;
+  }
+  
+  .container-options {
+    align-items: center;
+  }
+  
+  .container-options p {
+    color: rgb(5, 5, 5);
+    margin-top: 15px;
+    margin-right: 20px;
+  }
+  
+  .items img {
+    width: 25px;
+    height: 25px;
+  }
+  
+  @media (min-width: 320px) {
+    .container-options {
+      display: none;
+  
+    }
+  }
+  
+  @media (min-width: 412px) {
+    .container-options {
+      display: none;
+    }
+  
+    .main-nav {
+      padding-left: 10px;
+    }
+  }
+  
+  @media (min-width: 576px) {
+    .container-options {
+      display: block;
+  
+    }
+  }

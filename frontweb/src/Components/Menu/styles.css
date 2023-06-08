@@ -1,0 +1,17 @@
+.menu-container {
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.MuiBreadcrumbs-li a {
+    text-decoration: none;
+}
+
+.makeStyles-link-4 {
+    color: gray;
+}
+
+.makeStyles-link-4.active {
+    color: rgb(103, 139, 238); 
+}
+
